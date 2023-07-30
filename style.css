@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.container {
+  border: 2px solid rgb(59, 175, 137);
+  height: 30rem;
+  width: 18rem;
+  margin: auto;
+  position: relative;
+  top: 5rem;
+  color: rgb(21, 235, 235);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+#heading {
+  border: 2px solid rgb(59, 175, 137);
+  height: 4rem;
+  width: 18rem;
+  margin-left: -2px;
+  color: rgb(61, 240, 17);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-top: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-decoration: underline;
+  background-color:rgba(26, 73, 16, 0.884);
+}
+#Type {
+  border: 2px solid white;
+  margin: 10px;
+  width: 13rem;
+  border-radius: 10px;
+  margin-left: 8px;
+  text-align: center;
+  color:aqua;
+
+}
+#add_button {
+  color: rgb(29, 24, 39);
+  border: 2px solid white;
+  border-radius: 1rem;
+  width: 3rem;
+  background-color: rgb(70, 192, 151);
+  cursor: pointer;
+  font-weight: bold;
+
+}
+#add_button:hover{
+    background-color: rgb(7, 245, 245);
+    color: black;
+}
+#TaskContainer{
+    /* border: 2px solid red; */
+    overflow-y: scroll;
+    color: rgb(2, 255, 2);
+    height: 21.8rem;
+    scroll-behavior: smooth;
+    padding: 6px;
+   
+    
+}
+#TaskContainer::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 2px;
+    /* position: relative; */
+    
+  }
+  #TaskContainer::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* color of the thumb */
+    border-radius: 5px; /* roundness of the thumb */
+  }
+  #TaskContainer > div {
+    border: 0.5px solid rgb(50, 243, 227);
+    width: 15.7rem;
+    text-align: left;
+    padding: 2px;
+    padding-left:5px ;
+    padding-right:7px ;
+    border-radius: 4px;
+    word-wrap:break-word;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+  }
+  .Task input{
+    position: relative;
+  height: 1rem;
+  width: 1rem;
+
+}
+  .Task div{
+    width: 13rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    cursor:default;
+    
+
+  }
+  .Task span{
+    color: rgb(244, 93, 22);
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    width: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+    top: 1rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    height: 1rem;
+
+  }
+  
+  .Task span:hover{
+    background-color: crimson;
+    color: rgb(244, 235, 235);
+    font-weight: bolder;
+  }
